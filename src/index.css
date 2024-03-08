@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*,*::before,*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +16,7 @@
   /* color: rgba(255, 255, 255, 0.87); */
   /* background-color: #242424; */
 
+  /* background-color: #66B2B2; */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,7 +24,8 @@
 }
 
 
-body {
+body,
+#root {
   margin: 0;
 }
 
