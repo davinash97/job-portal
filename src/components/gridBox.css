@@ -1,0 +1,34 @@
+.job-card {
+    max-width: 500px;
+    min-height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 250ms, transform 500ms;
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 2px 2px rgb(150, 150, 150);
+    }
+}
+
+.job-title {
+    text-align: center;
+    font-size: 4vh;
+    font-family: "system-ui", "Courier New", Courier, monospace;
+}
+
+.job-details {
+    width: fit-content;
+    text-align: justify;
+    /* font-family: "system-ui"; */
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    /* font-style: italic; */
+    text-transform: capitalize;
+}
+
+.job-location {
+    text-align: center;
+    font-size: 15px;
+}
