@@ -1,4 +1,4 @@
-/* @import url("./main.css"); */
+@import url("./main.css");
 
 @tailwind base;
 @tailwind components;
@@ -29,8 +29,9 @@
 body,
 #root {
   margin: 0;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background: linear-gradient(297deg, rgba(122,162,227,1) 30%, rgba(248,246,227,1) 77%);
+  user-select: none;
+  /* background: linear-gradient(297deg, #7aa2e3 30%, #f8f6e3 77%); */
+  background: linear-gradient(297deg, #006861 30%, #f8f6e3 77%);
 }
 
 /* @media (prefers-color-scheme: light) {

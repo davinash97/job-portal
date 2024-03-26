@@ -22,7 +22,9 @@ export default function App() {
             </details>
             <main className="flex flex-col w-screen items-center justify-center">
                 <div className="flex w-full flex-col text-center py-10 px-20 rounded-2xl gap-5 m-3">
-                    <h2 className="main-title">Job Connect</h2>
+                    <h2 className="main-title merriweather-black">
+                        Job Connect
+                    </h2>
                     <form className="flex justify-center sm:flex-col md:flex-row xl:w-full">
                         <input
                             type="text"
@@ -54,49 +56,39 @@ export default function App() {
                 className="grid gap-1 place-items-center m-3 2xl:grid-cols-3 lg:grid-cols-2"
                 id="job-container">
                 <JobGrid
-                    title="Job Title"
-                    details="This is supposed to be job details, from XYZ organization for ABC Position"
-                    location="State, Country"
+                    title="Senior Software Engineer - 1"
+                    details="Passionate coder building tomorrow's tech. Innovating at Google HQ. #TechGuru"
+                    location="Silicon Valley, United States"
                 />
                 <JobGrid
-                    title="Job Title"
-                    details="This is supposed to be job details, from XYZ organization for ABC Position"
-                    location="State, Country"
-                />
+                    title="Senior Software Engineer - 1"
+                    details="Passionate coder building tomorrow's tech. Innovating at Google HQ. #TechGuru"
+                    location="Silicon Valley, United States"
+                />{" "}
                 <JobGrid
-                    title="Job Title"
-                    details="This is supposed to be job details, from XYZ organization for ABC Position"
-                    location="State, Country"
-                />
+                    title="Senior Software Engineer - 1"
+                    details="Passionate coder building tomorrow's tech. Innovating at Google HQ. #TechGuru"
+                    location="Silicon Valley, United States"
+                />{" "}
                 <JobGrid
-                    title="Job Title"
-                    details="This is supposed to be job details, from XYZ organization for ABC Position"
-                    location="State, Country"
-                />
+                    title="Senior Software Engineer - 1"
+                    details="Passionate coder building tomorrow's tech. Innovating at Google HQ. #TechGuru"
+                    location="Silicon Valley, United States"
+                />{" "}
                 <JobGrid
-                    title="Job Title"
-                    details="This is supposed to be job details, from XYZ organization for ABC Position"
-                    location="State, Country"
-                />
+                    title="Senior Software Engineer - 1"
+                    details="Passionate coder building tomorrow's tech. Innovating at Google HQ. #TechGuru"
+                    location="Silicon Valley, United States"
+                />{" "}
                 <JobGrid
-                    title="Job Title"
-                    details="This is supposed to be job details, from XYZ organization for ABC Position"
-                    location="State, Country"
-                />
+                    title="Senior Software Engineer - 1"
+                    details="Passionate coder building tomorrow's tech. Innovating at Google HQ. #TechGuru"
+                    location="Silicon Valley, United States"
+                />{" "}
                 <JobGrid
-                    title="Job Title"
-                    details="This is supposed to be job details, from XYZ organization for ABC Position"
-                    location="State, Country"
-                />
-                <JobGrid
-                    title="Job Title"
-                    details="This is supposed to be job details, from XYZ organization for ABC Position"
-                    location="State, Country"
-                />
-                <JobGrid
-                    title="Job Title"
-                    details="This is supposed to be job details, from XYZ organization for ABC Position"
-                    location="State, Country"
+                    title="Senior Software Engineer - 1"
+                    details="Passionate coder building tomorrow's tech. Innovating at Google HQ. #TechGuru"
+                    location="Silicon Valley, United States"
                 />
             </div>
         </>
