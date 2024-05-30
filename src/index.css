@@ -1,0 +1,42 @@
+@import url("./main.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,*::before,*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+
+  /* background-color: #66B2B2; */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body,
+#root {
+  margin: 0;
+  user-select: none;
+  /* background: linear-gradient(297deg, #7aa2e3 30%, #f8f6e3 77%); */
+  background: linear-gradient(297deg, #006861 30%, #f8f6e3 77%);
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+} */
